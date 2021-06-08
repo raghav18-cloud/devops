@@ -6,6 +6,6 @@ RUN apk add --no-cache gcc musl-dev linux-headers
 RUN pip install flask
 EXPOSE 5001
 copy . .
-CMD ["fls.py"]
+CMD ["flask", "run"]
 
 
