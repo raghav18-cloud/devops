@@ -1,0 +1,38 @@
+
+  330  apt-get install git
+  346  apt-get install jenkins
+  347  jenkins --version
+  350  cat /var/lib/jenkins/secrets/initialAdminPassword
+  351  apt-get docker
+  352  apt-get docker.io
+  353  apt-get install docker.io
+  407  mkdir git_folder
+  408  cd git_folder/
+  409  git init
+  410  git clone https://github.com/raghav18-cloud/myrepso.git
+  411  cd myrepso/
+  412  git remote add myrepo master
+  413  ls
+  414  vi Dockerfile
+  415  cat Dockerfile 
+  416  git add .
+  417  git commit -am "First_code_commit" 
+  418  git push
+  419  git --version
+  420  jenkins version
+  424  clear
+  425  sudo usermod -aG docker $USER
+  426  sudo chmod 666 /var/run/docker.sock
+  427  clear
+  428  docker images
+  429  docker ps
+  430  clear
+  431  vi Dockerfile 
+  432  cat Dockerfile 
+  433  git add .
+  434  git commit -am "Second_product_code_commit"
+  435  git push
+  436  clear
+  437  docker images
+  438  docker ps
+  439  history
