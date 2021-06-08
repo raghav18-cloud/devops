@@ -4,6 +4,7 @@ ENV FLASK_APP fls.py
 ENV FLASK_RUN_HOST 0.0.0.0
 RUN apk add --no-cache gcc musl-dev linux-headers
 RUN pip install flask
+EXPOSE 8086
 copy . .
 CMD ["flask","run"]
 
